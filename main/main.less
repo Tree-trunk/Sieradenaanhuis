@@ -27,6 +27,8 @@
 //spav
 @width-window: @width-page + 2*@offset-base;
 
+@height-product-container: 275px;
+
 
 a {
     color: @color-link;
@@ -41,6 +43,17 @@ u{
   text-decoration: none;
 }
 
+.test-mode {
+	padding: 10px;
+	border: solid 1px #ffacac;
+	background-color: #ffeded;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	color: red;
+}
+
 .maincontent {
     font-size: 10pt;
     width: @width-page;
@@ -50,6 +63,144 @@ u{
     min-height: 500px;
     border: solid 3px @color-border;
     padding-bottom: 30px;
+
+    #columns {
+        display: table;
+      
+
+        .main-column-left {
+            display: table-cell;
+            vertical-align: top;
+            width: @width-base + @offset-base;
+            min-height: 500px;
+
+            
+        }
+
+        .main-column-right {
+            padding-left: @offset-base;
+            display: table-cell;
+            vertical-align: top;
+            min-height: 500px;
+            width: 4*@width-base + 4*@offset-base;
+            border: solid 2px @color-border;
+            .usercontent {
+                text-align: justify;
+
+                padding-bottom: 10px;
+            }
+
+            .usercontent.above {
+                img {
+                    max-width: @width-category-banner-large;
+                }
+            }
+
+            .container {
+                width: 4*@width-base + 4*@offset-base;
+                margin: 0;
+                float:left;
+
+                .product.hover {
+                    .price {
+                        font-size: 12px;
+                    }
+                }
+
+                .product {
+                    background: none !important;
+                    background: #FFFFFF;
+                    min-height: @height-product-container - 20px;
+                    max-height: @height-product-container;
+                    margin-right:10px !important;
+                    float:left;
+                    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+                    border: 1px solid #D5D5CE;                    
+
+                    &:hover {
+                        border: 1px solid #707070;
+                    }
+
+ 
+                    .number {
+                        font-weight: 100 !important;
+                        overflow:visible !important; 
+                        white-space:normal !important;
+                    }
+
+                    .price {;\
+                        font-weight: bold;
+                        font-size: 12px;
+                        margin-top: 10px;
+                        height: 20px;
+					    
+                    }
+
+                    a {
+                        font-weight: bold;
+                        font-size:10px;
+
+                        &:visited {
+                            color: @color-link;
+                        }
+
+                        .title {
+                            color: #5d5d5d;
+                            height: 50px;
+                            width:182px;
+                            font-size: 12px;
+                            min-height:50px !important;
+                        }
+                    }
+
+                    &.hover .details {
+                        display: none;
+                    }
+
+                    .details {
+                        position: relative;
+                        background-image: url(//hybridsaasblob.blob.core.windows.net/aspekto-public/website/images/product-list/button-details.png);
+                        width: 184px;
+                        height: 26px;
+                        margin: 6px 0 0 4px;
+                        display: none;
+                    }
+                }
+
+                a {
+                    float:left;
+                    margin-right: 15px;
+                    margin-left: 0;
+
+                    .path {
+                        width: 405px;
+                        height: 188px;
+                    }
+                }
+            }
+
+            .usercontent.below {
+                margin-bottom: 50px;
+                padding-right: 20px;
+                float:left;
+            }
+
+            .template-content {
+                float:left;
+            }
+        }
+    }
+
+    &.hasmenu {
+
+        .content {
+            width: 858px;
+            margin-left: 30px;
+            padding-left: 0;
+        }
+    }
+
+
 
     .topmenu {
         padding: @offset-base;
@@ -95,7 +246,7 @@ u{
 
 }
 
-.footer {
+#footer {
     width: @width-page;
     height: 50px;
     margin: auto;
@@ -105,7 +256,7 @@ u{
 
  }
 
-.header {
+#header {
     width: @width-page;
     height: 50px;
     margin: auto;
