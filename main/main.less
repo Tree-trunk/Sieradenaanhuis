@@ -1,0 +1,129 @@
+// kleur van randen
+@color-border: black;
+
+// dondere font kleur
+@color-front-dark: #565656;
+
+//standaard achtergrond kleur
+@color-background: white;
+
+
+
+//link kleur tekst
+@color-link: #06e;
+//hover link kleur tekst
+@color-link-hover: #06e;
+//visited link kleur tekst
+@color-link-visited: #1A1E86;
+
+
+//basis breedte
+@width-base: 200px;
+
+//offset breedte
+@offset-base: 10px;
+
+//totale breedte van de pagina
+@width-page: 6*@offset-base + 5*@width-base;
+
+//totale breedte van de brede baner
+@width-category-banner-large: 3*@offset-base + 4*@width-base;
+
+//spav
+@width-window: @width-page + 2*@offset-base;
+
+
+
+body {
+	background-color: @color-background;
+}
+
+
+a {
+    color: @color-link;
+    &:hover {
+        color: @color-link-hover !important;
+    }
+    &:visited {
+        color: @color-link-visited;
+    }
+}
+u{
+  text-decoration: none;
+}
+
+.maincontent {
+    font-size: 10pt;
+    width: @width-page;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 500px;
+    border: solid 3px @color-border;
+    padding-bottom: 30px;
+
+    .topmenu {
+        padding: @offset-base;
+        margin-bottom: 10px;
+        margin-top: 5px;
+
+        nav {
+            border: 2px solid @color-border;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            font-weight: bold;
+            font-size: 15px;
+            li {
+
+
+                list-style-type: none;
+                margin: 0;
+                display: inline-block;
+                a {
+                    text-decoration: none;
+                    padding-left: 26px;
+                    padding-right: 26px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+
+   .menucontent {
+        margin-left: @offset-base;
+
+        nav {
+            border: 2px solid @color-border;
+            display: inline-block;
+            vertical-align: top;
+            width: @width-base - 10px;
+            margin-right: 10px;
+
+           
+        }
+    }
+
+}
+
+.footer {
+    width: @width-page;
+    height: 50px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid @color-border;
+    padding: 5px 0 0 0;
+
+ }
+
+.header {
+    width: @width-page;
+    height: 50px;
+    margin: auto;
+    border: 2px solid @color-border;
+    padding: 5px 0 0 0;
+
+}
+
+
+
