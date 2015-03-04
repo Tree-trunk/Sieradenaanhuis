@@ -27,7 +27,7 @@ u {
   margin-top: 20px;
   margin-bottom: 20px;
   min-height: 500px;
-  border: solid 3px black;
+  border: solid 2px black;
   padding-bottom: 30px;
 }
 .maincontent #columns {
@@ -45,7 +45,7 @@ u {
   vertical-align: top;
   min-height: 500px;
   width: 840px;
-  border: solid 2px black;
+  border: 1px solid black;
 }
 .maincontent #columns .main-column-right .usercontent {
   text-align: justify;
@@ -59,32 +59,21 @@ u {
   margin: 0;
   float: left;
 }
-.maincontent #columns .main-column-right .container .product.hover .price {
-  font-size: 12px;
-}
 .maincontent #columns .main-column-right .container .product {
   background: none !important;
-  background: #FFFFFF;
   min-height: 255px;
   max-height: 275px;
   margin-right: 10px !important;
   float: left;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
-  border: 1px solid #D5D5CE;
+  border: 1px solid black;
 }
 .maincontent #columns .main-column-right .container .product:hover {
-  border: 1px solid #707070;
+  border: 2px solid #707070;
 }
 .maincontent #columns .main-column-right .container .product .number {
   font-weight: 100 !important;
   overflow: visible !important;
   white-space: normal !important;
-}
-.maincontent #columns .main-column-right .container .product .price {
-  font-weight: bold;
-  font-size: 12px;
-  margin-top: 10px;
-  height: 20px;
 }
 .maincontent #columns .main-column-right .container .product a {
   font-weight: bold;
@@ -94,7 +83,6 @@ u {
   color: #0066ee;
 }
 .maincontent #columns .main-column-right .container .product a .title {
-  color: #5d5d5d;
   height: 50px;
   width: 182px;
   font-size: 12px;
@@ -105,11 +93,13 @@ u {
 }
 .maincontent #columns .main-column-right .container .product .details {
   position: relative;
-  background-image: url(//hybridsaasblob.blob.core.windows.net/aspekto-public/website/images/product-list/button-details.png);
   width: 184px;
   height: 26px;
   margin: 6px 0 0 4px;
   display: none;
+}
+.maincontent #columns .main-column-right .container .product .detail {
+  border: 2px solid black;
 }
 .maincontent #columns .main-column-right .container a {
   float: left;

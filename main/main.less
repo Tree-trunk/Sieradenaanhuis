@@ -61,7 +61,7 @@ u{
     margin-top: 20px;
     margin-bottom: 20px;
     min-height: 500px;
-    border: solid 3px @color-border;
+    border: solid 2px @color-border;
     padding-bottom: 30px;
 
     #columns {
@@ -83,7 +83,8 @@ u{
             vertical-align: top;
             min-height: 500px;
             width: 4*@width-base + 4*@offset-base;
-            border: solid 2px @color-border;
+            border: 1px solid @color-border;  
+            
             .usercontent {
                 text-align: justify;
 
@@ -101,24 +102,17 @@ u{
                 margin: 0;
                 float:left;
 
-                .product.hover {
-                    .price {
-                        font-size: 12px;
-                    }
-                }
 
                 .product {
                     background: none !important;
-                    background: #FFFFFF;
                     min-height: @height-product-container - 20px;
                     max-height: @height-product-container;
                     margin-right:10px !important;
                     float:left;
-                    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
-                    border: 1px solid #D5D5CE;                    
+                    border: 1px solid @color-border;                    
 
                     &:hover {
-                        border: 1px solid #707070;
+                        border: 2px solid #707070;
                     }
 
  
@@ -128,13 +122,6 @@ u{
                         white-space:normal !important;
                     }
 
-                    .price {;\
-                        font-weight: bold;
-                        font-size: 12px;
-                        margin-top: 10px;
-                        height: 20px;
-					    
-                    }
 
                     a {
                         font-weight: bold;
@@ -145,7 +132,6 @@ u{
                         }
 
                         .title {
-                            color: #5d5d5d;
                             height: 50px;
                             width:182px;
                             font-size: 12px;
@@ -159,11 +145,15 @@ u{
 
                     .details {
                         position: relative;
-                        background-image: url(//hybridsaasblob.blob.core.windows.net/aspekto-public/website/images/product-list/button-details.png);
+                      
                         width: 184px;
                         height: 26px;
                         margin: 6px 0 0 4px;
                         display: none;
+                    }
+
+                    .detail {
+                         border: 2px solid @color-border;      
                     }
                 }
 
