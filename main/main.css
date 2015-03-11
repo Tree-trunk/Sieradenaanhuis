@@ -172,4 +172,10 @@ u {
   border: 2px solid black;
   padding: 5px 0 0 0;
 }
+#bottommenu nav {
+  border: 2px solid black;
+  display: inline-block;
+  vertical-align: top;
+  width: 190px;
+}
 /*# sourceMappingURL=main.css.map */
