@@ -172,6 +172,11 @@ u {
   border: 2px solid black;
   padding: 5px 0 0 0;
 }
+#bottommenu {
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
 #bottommenu nav {
   border: 2px solid black;
   padding-top: 8px;
