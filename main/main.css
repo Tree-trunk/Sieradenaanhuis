@@ -174,8 +174,21 @@ u {
 }
 #bottommenu nav {
   border: 2px solid black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: bold;
+  font-size: 15px;
+}
+#bottommenu nav li {
+  list-style-type: none;
+  margin: 0;
   display: inline-block;
-  vertical-align: top;
-  width: 190px;
+}
+#bottommenu nav li a {
+  text-decoration: none;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 /*# sourceMappingURL=main.css.map */
