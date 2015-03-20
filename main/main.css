@@ -301,3 +301,34 @@ u {
             font-weight: bold;
             font-size: 1.2em;
         }
+ 
+#vijftigprocent-1 { 
+    display: inline-block;
+    width: 49%;
+    margin-right: 1%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+    #vijftigprocent-1 img { 
+        width: 100%;
+    }
+
+#vijftigprocent-2 { 
+    display: inline-block;
+    width: 49%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+    #vijftigprocent-2 img { 
+        width: 100%;
+    }
+    
+#vijftigprocent-1 .caption , #vijftigprocent-2 .caption { 
+    text-align: center;
+}
