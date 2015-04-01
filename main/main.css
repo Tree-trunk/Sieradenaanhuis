@@ -379,3 +379,22 @@ u {
             padding-top: 10px;
             padding-bottom: 10px;
         }
+        
+.footer_column { 
+    float: left;
+    width: 20%;
+}
+
+    .footer_column h4 { 
+        margin: 0;
+    }
+
+    .footer_column ul { 
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+.footer_seperator { 
+    height: 20px;
+}
