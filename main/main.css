@@ -383,10 +383,13 @@ u {
 .footer_column { 
     float: left;
     width: 20%;
+    font-size: 1.1em;
 }
 
     .footer_column h4 { 
         margin: 0;
+        font-size: 1.1em;
+        margin-bottom: 10px;
     }
 
     .footer_column ul { 
@@ -395,6 +398,20 @@ u {
         list-style: none;
     }
     
+        .footer_column ul li { 
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+    
+.footer_column.logo { 
+    text-align: center;
+    
+}
+
+    .footer_column.logo .company {
+        font-size: 1.2em;
+    }
+    
 .footer_seperator { 
-    height: 20px;
+    height: 15px;
 }
