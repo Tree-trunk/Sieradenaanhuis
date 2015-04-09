@@ -160,10 +160,16 @@ u {
 }
 #footer {
   width: 1060px;
-  height: 50px;
   margin: auto;
   margin-top: 50px;
   border: 2px solid black;
+  padding: 5px 0 0 0;
+}
+
+#footer2 { 
+  width: 1060px;
+  margin: auto;
+  margin-top: 50px;
   padding: 5px 0 0 0;
 }
 #header {
@@ -415,3 +421,13 @@ u {
 .footer_seperator { 
     height: 15px;
 }
+
+#footer2 ul { 
+    list-style: none;
+    float: right;
+}
+
+    #footer2 ul li { 
+        display: inline-block;
+        margin-left: 40px;
+    }
