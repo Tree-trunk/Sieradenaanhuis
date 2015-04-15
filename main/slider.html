@@ -1,17 +1,26 @@
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!DOCTYPE HTML>
 
-<script src="http://sieradenaanhuis.azurewebsites.net/main/js/jquery.bxslider.min.js"></script>
+<html>
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    
+    <script src="http://sieradenaanhuis.azurewebsites.net/main/js/jquery.bxslider.min.js"></script>
+    
+    <link href="http://sieradenaanhuis.azurewebsites.net/main/css/jquery.bxslider.css" rel="stylesheet" />
+</head>
 
-<link href="http://sieradenaanhuis.azurewebsites.net/main/css/jquery.bxslider.css" rel="stylesheet" />
+<body>
+    <ul class="bxslider">
+      <li><a href="http://www.nu.nl" target="_blank"><img src="http://sieradenaanhuis.azurewebsites.net/main/images/slider/slider1.png" /></a></li>
+      <li><a href="http://www.startpagina.nl" target="_blank"><img src="http://sieradenaanhuis.azurewebsites.net/main/images/slider/slider2.jpg" /></a></li>
+      <li><a href="http://www.tree-trunk.nl" target="_blank"><img src="http://sieradenaanhuis.azurewebsites.net/main/images/slider/slider3.jpg" /></a></li>
+    </ul>
+    
+    <script>
+    $(document).ready(function(){
+      $('.bxslider').bxSlider();
+    });
+    </script>
+</body>
 
-<ul class="bxslider">
-  <li><img src="http://sieradenaanhuis.azurewebsites.net/main/images/slider/slider1.png" /></li>
-  <li><img src="http://sieradenaanhuis.azurewebsites.net/main/images/slider/slider2.jpg" /></li>
-  <li><img src="http://sieradenaanhuis.azurewebsites.net/main/images/slider/slider3.jpg" /></li>
-</ul>
-
-<script>
-$(document).ready(function(){
-  $('.bxslider').bxSlider();
-});
-</script>
+</html>
