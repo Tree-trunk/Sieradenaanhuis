@@ -10,15 +10,24 @@
 </head>
 
 <body>
-    <ul class="slider">
-      <li><a href="http://www.nu.nl" target="_blank"><img src="http://sieradenaanhuis.azurewebsites.net/main/images/slider/slider1.png" /></a></li>
-      <li><a href="http://www.startpagina.nl" target="_blank"><img src="http://sieradenaanhuis.azurewebsites.net/main/images/slider/slider2.jpg" /></a></li>
-      <li><a href="http://www.tree-trunk.nl" target="_blank"><img src="http://sieradenaanhuis.azurewebsites.net/main/images/slider/slider3.jpg" /></a></li>
-    </ul>
+    <div class="slider">
+      <div class="slide">
+        <a href="http://www.nu.nl" target="_blank"><img src="http://sieradenaanhuis.azurewebsites.net/main/images/slider/slider1.png" /></a>
+      </div>
+      <div class="slide">
+        <a href="http://www.startpagina.nl" target="_blank"><img src="http://sieradenaanhuis.azurewebsites.net/main/images/slider/slider2.jpg" /></a>
+      </div>
+      <div class="slide">
+        <a href="http://www.tree-trunk.nl" target="_blank"><img src="http://sieradenaanhuis.azurewebsites.net/main/images/slider/slider3.jpg" /></a>
+      </div>
+    </div>
     
     <script>
     $(document).ready(function(){
-      $('.slider').bxSlider();
+      $('.slider').bxSlider({
+        auto: true,
+        wrapperClass: 'bx-wrapper home-slider'
+      });
     });
     </script>
 </body>
