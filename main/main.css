@@ -1,4 +1,40 @@
-﻿a {
+﻿/* Responsive maken */
+#header {
+    border: 2px solid black;
+    margin: auto;
+    padding: 1% 0 0 !important;
+    width: 80% !important;
+}
+
+.maincontent {
+    border: 2px solid black;
+    font-size: 10pt;
+    margin: 20px auto;
+    min-height: 500px;
+    padding-bottom: 30px;
+    width: 80% !important;
+}
+
+#bottommenu {
+    margin: auto;
+    padding: 2% !important;  
+    width: 80% !important;
+}
+
+#footer {
+    border: 2px solid black;
+    padding: 1% 0 0 !important;
+    width: 80% !important;
+}
+
+#footer2 {
+    padding: 1% 0 0 !important;
+    width: 80% !important;
+}
+
+/* Einde responsive maken */
+
+a {
   color: #000000;
   text-decoration: none !important;
 }
