@@ -414,7 +414,7 @@ u {
 
 @media (max-width: 800px) {
 	.maincontent, #header, #bottommenu, #footer, #footer2, #footer .content #footer {
-		width:95%;
+		width:95% !important;
 	}
 	
 	.maincontent #columns .main-column-left {
