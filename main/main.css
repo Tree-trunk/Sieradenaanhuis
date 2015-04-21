@@ -30,17 +30,6 @@
     width: 80% !important;
 }
 
-#footer {
-    border: 2px solid black;
-    padding: 1% 0 0 !important;
-    width: 80% !important;
-}
-
-#footer2 {
-    padding: 1% 0 0 !important;
-    width: 80% !important;
-}
-
 /* Einde responsive maken */
 
 a {
@@ -403,6 +392,17 @@ u {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+#footer {
+    border: 2px solid black;
+    padding: 1% 0 0 !important;
+    width: 80% !important;
+}
+
+#footer2 {
+    padding: 1% 0 0 !important;
+    width: 80% !important;
+}
+
 .footer_column {
 	float: left;
 	width: 20%;
