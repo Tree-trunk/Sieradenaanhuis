@@ -427,7 +427,10 @@ u {
 		vertical-align: top;
 		width: 100% !important;
 	}
-	#vijfbox li, #vierbox li, #slider-menu, #meestverkocht li, #vijftigprocent-2 {
+	#vijfbox li, #vierbox li {
+		width:49%;
+	}
+	#slider-menu, #meestverkocht li, #vijftigprocent-2 {
 		width:100%;
 	}
 	#slider {
