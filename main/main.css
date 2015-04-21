@@ -413,7 +413,7 @@ u {
 }
 
 @media (max-width: 800px) {
-	.maincontent, #header, #bottommenu, #footer, #footer2 {
+	.maincontent, #header, #bottommenu, #footer, #footer2, #footer .content #footer {
 		width:95%;
 	}
 	
