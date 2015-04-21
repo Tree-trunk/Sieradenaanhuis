@@ -192,19 +192,6 @@ u {
 	width: 190px;
 	margin-right: 10px;
 }
-#footer {
-	width: 1060px;
-	margin: auto;
-	margin-top: 50px;
-	border: 2px solid black;
-	padding: 5px 0 0 0;
-}
-#footer2 {
-	width: 1060px;
-	margin: auto;
-	margin-top: 50px;
-	padding: 5px 0 0 0;
-}
 #header {
 	width: 80%;
 	margin: auto;
