@@ -64,6 +64,7 @@ u {
 }
 .maincontent #columns {
 	display: table;
+	width:100%;
 }
 .maincontent #columns .main-column-left {
 	display: table-cell;
@@ -159,7 +160,6 @@ u {
 	padding-left: 0;
 }
 .maincontent .topmenu {
-	padding: 10px;
 	margin-bottom: 10px;
 	margin-top: 5px;
 }
@@ -186,11 +186,11 @@ u {
 	margin-left: 10px;
 }
 .maincontent .menucontent nav {
-	border: 2px solid black;
-	display: inline-block;
-	vertical-align: top;
-	width: 190px;
-	margin-right: 10px;
+	background-color: #000;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+    width: 100%;
 }
 
 #header {
