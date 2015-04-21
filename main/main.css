@@ -1,38 +1,4 @@
-﻿/* Responsive maken
-#header {
-    border: 2px solid black;
-    margin: auto;
-    padding: 1% 0 0 !important;
-    width: 80% !important;
-}
-
-.maincontent {
-    border: 2px solid black;
-    font-size: 10pt;
-    margin: 20px auto;
-    min-height: 100px;
-    padding-bottom: 30px;
-    width: 80% !important;
-}
-
-.maincontent #columns .main-column-left {
-    width: 25% !important;
-}
-
-.maincontent #columns .main-column-right {
-    border: 0px solid black !important;
-    width: 75% !important;
-}
-
-#bottommenu {
-    margin: auto;
-    padding: 2% !important;  
-    width: 80% !important;
-}
-
-/* Einde responsive maken */
-
-a {
+﻿a {
 	color: #000000;
 	text-decoration: none !important;
 }
@@ -63,36 +29,32 @@ u {
 }
 .maincontent #columns {
 	display: table;
-	width:100%;
+	width: 100%;
 }
 .maincontent #columns .main-column-left {
 	display: table-cell;
 	vertical-align: top;
 	width: 25%;
 	min-height: 100px;
-	background-color:#094CA6;
+	background-color: #094CA6;
 }
 .maincontent #columns .main-column-right {
 	display: table-cell;
 	vertical-align: top;
 	min-height: 100px;
 	width: 75%;
-	background-color:#9120CB;
+	background-color: #9120CB;
 }
 .maincontent #columns .main-column-right .usercontent {
 	text-align: justify;
 	padding-bottom: 10px;
 }
-/*
-.maincontent #columns .main-column-right .usercontent.above img {
-  max-width: 830px;
-}*/
 
 .maincontent #columns .main-column-right .container {
 	width: 100%;
 	margin: 0;
 	float: left;
-	background-color:#B3DC19;
+	background-color: #B3DC19;
 }
 .maincontent #columns .main-column-right .container .product {
 	background: none !important;
@@ -159,7 +121,8 @@ u {
 	padding-left: 0;
 }
 .maincontent .topmenu {
-	background-color:#e45e61;
+	background-color: #e45e61;
+	margin-bottom: 20px;
 }
 .maincontent .topmenu nav {
 	border: 2px solid black;
@@ -183,28 +146,27 @@ u {
 }
 .maincontent .menucontent nav {
 	background-color: #000;
-    display: inline-block;
-    margin-right: 10px;
-    vertical-align: top;
-    width: 100%;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: top;
+	width: 96%;
 }
-
 #header {
 	width: 80%;
 	margin: auto;
-	background-color:#844C05;
+	background-color: #844C05;
 }
 #bottommenu {
 	width: 80%;
 	margin: auto;
-	background-color:#844C05;
+	background-color: #844C05;
 }
 #bottommenu nav {
 	padding-top: 8px;
 	padding-bottom: 8px;
 	font-weight: bold;
 	font-size: 15px;
-	background-color:#2804BC;
+	background-color: #2804BC;
 }
 #bottommenu nav li {
 	list-style-type: none;
@@ -218,9 +180,6 @@ u {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-/*# sourceMappingURL=main.css.map */
-
-/** Custom content **/
 .main-part1 {
 	height: 250px;
 	overflow: hidden;
@@ -377,25 +336,22 @@ u {
 	padding-bottom: 10px;
 }
 #footer {
-    border: 2px solid black;
-    padding: 1% 0 0 !important;
-    width: 80% !important;
-	margin:auto;
+	padding: 0 !important;
+	width: 80% !important;
+	margin: auto;
+	background-color: #26C70C;
 }
-
 #footer .content #footer {
-    border: 2px solid black;
-    padding: 1% 0 0 !important;
-    width: 100% !important;
-	margin:auto;
+	border: 2px solid black;
+	padding: 1% 0 0 !important;
+	width: 100% !important;
+	margin: auto;
 }
-
 #footer2 {
-    padding: 1% 0 0 !important;
-    width: 80% !important;
-	margin:auto;
+	padding: 1% 0 0 !important;
+	width: 80% !important;
+	margin: auto;
 }
-
 .footer_column {
 	float: left;
 	width: 20%;
@@ -433,19 +389,27 @@ u {
 	margin-left: 40px;
 }
 
-@media screen and (max-width: 1000px) {
-.maincontent #columns .main-column-left {
-	width: 100% !important;
-	float: left;
-}
-.maincontent #columns .main-column-right {
-	width: 100% !important;
-	float: left;
-}
-.maincontent #columns .main-column-right {
-	min-height: 100px !important;
-	padding-left: 0 !important;
-	vertical-align: top;
-	width: 100% !important;
-}
+@media (max-width: 800px) {
+	.maincontent #columns .main-column-left {
+		width: 100% !important;
+		float: left;
+	}
+	.maincontent #columns .main-column-right {
+		width: 100% !important;
+		float: left;
+	}
+	.maincontent #columns .main-column-right {
+		min-height: 100px !important;
+		padding-left: 0 !important;
+		vertical-align: top;
+		width: 100% !important;
+	}
+	#slider, #vijfbox li, #slider-menu, #meestverkocht li, #vijftigprocent-2 {
+		width:100%;
+	}
+	
+	#vijftigprocent-1 {
+		width:100%;
+		margin-right:0;
+	}
 }
