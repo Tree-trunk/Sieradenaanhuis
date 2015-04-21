@@ -42,13 +42,15 @@
 }
 
 /* Portrait and Landscape */
-@media screen and (max-width: 320px){
+@media screen and (max-width: 1000px){
 	.maincontent #columns .main-column-left {
     	width: 100% !important;
+		float:left;
 	}
 	
 	.maincontent #columns .main-column-right {
-    	width: 75% !important;
+    	width: 100% !important;
+		float:left;
 	}
 }
 
