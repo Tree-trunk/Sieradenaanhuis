@@ -15,6 +15,15 @@
     width: 80% !important;
 }
 
+.maincontent #columns .main-column-left {
+    width: 25% !important;
+}
+
+.maincontent #columns .main-column-right {
+    border: 0px solid black !important;
+    width: 75% !important;
+}
+
 #bottommenu {
     margin: auto;
     padding: 2% !important;  
@@ -30,6 +39,17 @@
 #footer2 {
     padding: 1% 0 0 !important;
     width: 80% !important;
+}
+
+/* Portrait and Landscape */
+@media screen and (max-width: 320px){
+	.maincontent #columns .main-column-left {
+    	width: 100% !important;
+	}
+	
+	.maincontent #columns .main-column-right {
+    	width: 75% !important;
+	}
 }
 
 /* Einde responsive maken */
