@@ -116,7 +116,7 @@ u {
 	float: left;
 }
 .maincontent.hasmenu .content {
-	width: 858px;
+	width: 100%;
 	margin-left: 30px;
 	padding-left: 0;
 }
@@ -413,6 +413,10 @@ u {
 }
 
 @media (max-width: 800px) {
+	.maincontent, #header, #bottommenu, #footer, #footer2 {
+		width:95%;
+	}
+	
 	.maincontent #columns .main-column-left {
 		width: 100% !important;
 		float: left;
