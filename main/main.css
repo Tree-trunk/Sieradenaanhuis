@@ -24,7 +24,17 @@ u {
 .voordelen { 
     width: 100%;
     background: #ff0000;
+    text-align: center;
 }
+
+    .voordelen ul { 
+        list-style: none;
+    }
+    
+        .voordelen ul li { 
+            display: inline-block;
+            margin-right: 40px;
+        }
 
 .maincontent {
 	font-size: 10pt;
