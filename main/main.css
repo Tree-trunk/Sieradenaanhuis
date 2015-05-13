@@ -464,5 +464,6 @@ u {
     
     #footer .footer_column { 
         width: 100% !important;
+        text-align: center !important;
     }
 }
