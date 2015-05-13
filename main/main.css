@@ -465,5 +465,10 @@ u {
     #footer .footer_column { 
         width: 100% !important;
         text-align: center !important;
+        margin-bottom: 10px !important;
+    }
+    
+    .footer2_column { 
+        text-align: center !important;
     }
 }
