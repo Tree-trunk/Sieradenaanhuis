@@ -23,8 +23,9 @@ u {
 
 .voordelen { 
     width: 100%;
-    background: #ff0000;
+    background: #662482;
     text-align: center;
+    color: #fff;
 }
 
     .voordelen ul { 
