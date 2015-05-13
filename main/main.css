@@ -461,4 +461,8 @@ u {
     .header_cart { 
         width: 100% !important;
     }
+    
+    .footer .footer_column { 
+        width: 100% !important;
+    }
 }
