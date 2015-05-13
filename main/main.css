@@ -37,10 +37,13 @@ u {
     background: #662482;
     text-align: center;
     color: #fff;
+	height:28px;
+	vertical-align:central;
 }
 
 #voordelencontainer { 
     width: 80%;
+    text-align: center;
 }
 
 .voordelenlos { 
