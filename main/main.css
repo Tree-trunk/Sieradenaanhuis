@@ -449,4 +449,16 @@ u {
 		height: auto;
 		overflow: hidden;
 	}
+    
+    .header_logo { 
+        width: 100%;
+    }
+    
+    .header_tekst { 
+        width: 100%;
+    }
+    
+    .header_cart { 
+        width: 100%;
+    }
 }
