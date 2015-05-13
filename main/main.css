@@ -473,6 +473,7 @@ u {
     }
     
     .footer2_column ul { 
+        clear: both !important;
         text-align: left !important;
     }
 }
