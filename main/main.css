@@ -43,10 +43,11 @@ u {
     width: 80%;
 }
 
-.voordelenlo3 { 
+.voordelenlos { 
     width: 20%;
     text-align: center;
     color: #fff;
+	float:left;
 }
 
 
