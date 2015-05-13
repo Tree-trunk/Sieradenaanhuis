@@ -451,14 +451,14 @@ u {
 	}
     
     .header_logo { 
-        width: 100%;
+        width: 100% !important;
     }
     
     .header_tekst { 
-        width: 100%;
+        width: 100% !important;
     }
     
     .header_cart { 
-        width: 100%;
+        width: 100% !important;
     }
 }
