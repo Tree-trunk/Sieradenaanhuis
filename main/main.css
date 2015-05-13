@@ -471,4 +471,8 @@ u {
     .footer2_column { 
         text-align: center !important;
     }
+    
+    .footer2_column ul { 
+        text-align: left !important;
+    }
 }
