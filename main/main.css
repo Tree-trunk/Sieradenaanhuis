@@ -32,21 +32,23 @@ u {
     display: none;
 }
 
-.voordelen { 
+#voordelen { 
     width: 100%;
     background: #662482;
     text-align: center;
     color: #fff;
 }
 
-    .voordelen ul { 
-        list-style: none;
-    }
-    
-        .voordelen ul li { 
-            display: inline-block;
-            margin-right: 40px;
-        }
+#voordelencontainer { 
+    width: 80%;
+}
+
+.voordelenlo3 { 
+    width: 20%;
+    text-align: center;
+    color: #fff;
+}
+
 
 .maincontent {
 	font-size: 10pt;
