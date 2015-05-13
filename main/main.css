@@ -70,7 +70,7 @@ u {
 .maincontent #columns .main-column-left {
 	display: table-cell;
 	vertical-align: top;
-	width: 25%;
+	width: 20%;
 	min-height: 100px;
 	background-color: #094CA6;
 }
@@ -78,7 +78,7 @@ u {
 	display: table-cell;
 	vertical-align: top;
 	min-height: 100px;
-	width: 75%;
+	width: 80%;
 	background-color: #9120CB;
 }
 .maincontent #columns .main-column-right .usercontent {
@@ -234,7 +234,7 @@ u {
 #slider-menu {
 	display: inline-block;
 	background: #ccc;
-	width: 38%;
+	width: 39%;
 	height: 100%;
 }
 #slider-menu ul {
