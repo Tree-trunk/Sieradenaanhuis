@@ -472,8 +472,7 @@ u {
         text-align: center !important;
     }
     
-    .footer2_column ul { 
-        clear: both !important;
-        text-align: left !important;
+    .footer2_column ul li:first-child { 
+        margin-left: 0px !important;
     }
 }
