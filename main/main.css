@@ -468,6 +468,28 @@ u {
 		vertical-align: top;
 		width: 100% !important;
 	}
+	#voordelen { 
+		width: 100%;
+		background: #662482;
+		text-align: center;
+		color: #fff;
+		height:28px;
+		vertical-align:central;
+	}
+	
+	#voordelencontainer { 
+		width: 100%;
+		text-align: center;
+		margin:0 auto;
+	}
+	
+	.voordelenlos { 
+		width: 100%;
+		text-align: center;
+		color: #fff;
+		float:left;
+		background-color:#F32024;
+	}
 	#vijfbox li, #vierbox li {
 		width:49%;
 	}
