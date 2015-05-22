@@ -163,9 +163,10 @@ u {
 	margin-bottom: 20px;
 }
 .maincontent .topmenu nav {
-	border-bottom: 2px solid #662482;
 	font-weight: bold;
 	font-size: 14px;
+	padding-top:4px;
+	padding-bottom:4px;
 }
 .maincontent .topmenu nav li {
 	list-style-type: none;
