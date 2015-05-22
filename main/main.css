@@ -468,7 +468,7 @@ u {
 		width: 100% !important;
 	}
 	#voordelen {
-		display:none;
+		display:none !important;
 	}
 	
 	#voordelencontainer { 
