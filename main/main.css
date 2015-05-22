@@ -467,13 +467,8 @@ u {
 		vertical-align: top;
 		width: 100% !important;
 	}
-	#voordelen { 
-		width: 100%;
-		background: #662482;
-		text-align: center;
-		color: #fff;
-		height:28px;
-		vertical-align:central;
+	#voordelen {
+		display:none;
 	}
 	
 	#voordelencontainer { 
