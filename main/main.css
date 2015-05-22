@@ -10,14 +10,14 @@ body {
 }
 
 a {
-	color: #000000;
+	color: #3c3c3b;
 	text-decoration: none !important;
 }
 a:hover {
-	color: #000000 !important;
+	color: #662482 !important;
 }
 a:visited {
-	color: #1a1e86;
+	color: #3c3c3b;
 }
 u {
 	text-decoration: none;
@@ -157,11 +157,11 @@ u {
 	padding-left: 0;
 }
 .maincontent .topmenu {
-	background-color: #e45e61;
+	background-color: #f6f6f6;
 	margin-bottom: 20px;
 }
 .maincontent .topmenu nav {
-	border: 2px solid black;
+	border-bottom: 2px solid #662482;
 	font-weight: bold;
 	font-size: 15px;
 }
