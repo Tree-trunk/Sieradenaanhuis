@@ -165,11 +165,11 @@ u {
 .maincontent .topmenu nav {
 	border-bottom: 2px solid #662482;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 14px;
 }
 .maincontent .topmenu nav li {
 	list-style-type: none;
-	margin: 0;
+	margin-top: 10px;
 	display: inline-block;
 }
 .maincontent .topmenu nav li a {
