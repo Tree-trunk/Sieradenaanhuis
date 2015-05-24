@@ -284,93 +284,6 @@ u {
 	margin-top: 0;
 }
 /* einde slider custom css */
-/* bottommenu custom css */
-#bottommenu {
-	width: 80%;
-	margin: auto;
-	background-color: #844C05;
-}
-#bottommenu nav {
-	padding-top: 8px;
-	padding-bottom: 8px;
-	font-weight: bold;
-	font-size: 15px;
-	background-color: #2804BC;
-}
-#bottommenu nav li {
-	list-style-type: none;
-	margin: 0;
-	display: inline-block;
-}
-#bottommenu nav li a {
-	text-decoration: none;
-	padding-left: 26px;
-	padding-right: 26px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-/* einde bottommenu custom css */
-/* bottommenu 2 custom css */
-
-/* einde bottommenu 2 custom css */
-/* footer custom css */
-#footer {
-	padding: 0 !important;
-	width: 80% !important;
-	margin: auto;
-	background-color: #26C70C;
-}
-#footer .content #footer {
-	border: 2px solid black;
-	padding: 1% 0 0 !important;
-	width: 100% !important;
-	margin: auto;
-}
-.footer_column {
-	float: left;
-	width: 20%;
-	font-size: 1.1em;
-}
-.footer_column h4 {
-	margin: 0;
-	font-size: 1.1em;
-	margin-bottom: 10px;
-}
-.footer_column ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-.footer_column ul li {
-	padding-top: 3px;
-	padding-bottom: 3px;
-}
-.footer_column.logo {
-	text-align: center;
-}
-.footer_column.logo .company {
-	font-size: 1.2em;
-}
-.footer_seperator {
-	height: 15px;
-}
-/* einde footer custom css */
-/* footer 2 custom css */
-#footer2 {
-	padding: 1% 0 0 !important;
-	width: 80% !important;
-	margin: auto;
-}
-#footer2 ul {
-	list-style: none;
-	float: right;
-}
-#footer2 ul li {
-	display: inline-block;
-	margin-left: 40px;
-}
-/* einde footer2 custom css */
-
 /* inhoud pagina custom css */
 /* twee coloumns */
 #tweebox {
@@ -498,11 +411,111 @@ u {
 	font-size: 1.2em;
 }
 /* inhoud pagina custom css */
+/* bottommenu custom css */
+#bottommenu {
+	width: 80%;
+	margin: auto;
+	background-color: #844C05;
+}
+#bottommenu nav {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-weight: bold;
+	font-size: 15px;
+	background-color: #2804BC;
+}
+#bottommenu nav li {
+	list-style-type: none;
+	margin: 0;
+	display: inline-block;
+}
+#bottommenu nav li a {
+	text-decoration: none;
+	padding-left: 26px;
+	padding-right: 26px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/* einde bottommenu custom css */
+/* bottommenu 2 custom css */
+
+/* einde bottommenu 2 custom css */
+/* footer custom css */
+#footer {
+	padding: 0 !important;
+	width: 80% !important;
+	margin: auto;
+	background-color: #26C70C;
+}
+#footer .content #footer {
+	border: 2px solid black;
+	padding: 1% 0 0 !important;
+	width: 100% !important;
+	margin: auto;
+}
+.footer_column {
+	float: left;
+	width: 20%;
+	font-size: 1.1em;
+}
+.footer_column h4 {
+	margin: 0;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+}
+.footer_column ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.footer_column ul li {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.footer_column.logo {
+	text-align: center;
+}
+.footer_column.logo .company {
+	font-size: 1.2em;
+}
+.footer_seperator {
+	height: 15px;
+}
+/* einde footer custom css */
+/* footer 2 custom css */
+#footer2 {
+	padding: 1% 0 0 !important;
+	width: 80% !important;
+	margin: auto;
+}
+#footer2 ul {
+	list-style: none;
+	float: right;
+}
+#footer2 ul li {
+	display: inline-block;
+	margin-left: 40px;
+}
+/* einde footer2 custom css */
 
 
 
 /* responsive layout */
 @media (max-width: 800px) {
+	.header_logo { 
+        width: 100% !important;
+    }
+    
+    .header_tekst { 
+        width: 100% !important;
+    }
+    
+    .header_cart { 
+        width: 100% !important;
+    }
+	#voordelen {
+		display:none !important;
+	}
 	.maincontent, #header, #bottommenu, #footer, #footer2, #footer .content #footer {
 		width:95% !important;
 	}
@@ -521,24 +534,9 @@ u {
 		vertical-align: top;
 		width: 100% !important;
 	}
-	#voordelen {
-		display:none !important;
-	}
-	
-	#voordelencontainer { 
-		width: 100%;
-		text-align: center;
-		margin:0 auto;
-	}
-	
-	.voordelenlos { 
-		width: 100%;
-		text-align: center;
-		color: #fff;
-		float:left;
-	}
-	#vijfbox li, #vierbox li {
-		width:49%;
+	.main-part1 {
+		height: auto;
+		overflow: hidden;
 	}
 	#slider-menu, #meestverkocht li, #vijftigprocent-2 {
 		width:100%;
@@ -546,28 +544,10 @@ u {
 	#slider {
 		width:100%;
 		margin-bottom:20px;
-	}		
-	#vijftigprocent-1 {
-		width:100%;
-		margin-right:0;
 	}
-	.main-part1 {
-		height: auto;
-		overflow: hidden;
+	#vijfbox li, #vierbox li, #driebox li, #tweebox li{
+		width:49%;
 	}
-    
-    .header_logo { 
-        width: 100% !important;
-    }
-    
-    .header_tekst { 
-        width: 100% !important;
-    }
-    
-    .header_cart { 
-        width: 100% !important;
-    }
-    
     #footer .footer_column { 
         width: 100% !important;
         text-align: center !important;
