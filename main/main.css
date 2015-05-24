@@ -117,10 +117,19 @@ u {
 }
 .shoppingCarttext, #cart-count, #cart-amount {
 	width:auto;
-	float:right;
+	float:left;
 	text-align:right;
 	height:20px;
 	font-weight:bold;
+}
+#cart-amount {
+	width:auto;
+	float:right;
+	text-align:right;
+	height:20px;
+	font-weight:800;
+	margin-left:10px;
+	color:#662482;
 }
 
 /* maincontent custom css */
