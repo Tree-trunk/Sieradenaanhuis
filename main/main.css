@@ -74,16 +74,14 @@ u {
 	float: left;
 	width: 33%;
 	box-sizing: border-box;
-	padding: 20px;
 }
 .header_1 .header_tekst {
 	float: left;
 	width: 33%;
 	box-sizing: border-box;
-	padding: 20px;
 }
 .header_1 .header_cart {
-	float: left;
+	float: right;
 	width: auto;
 	box-sizing: border-box;
 	padding: 0px;
