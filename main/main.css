@@ -132,11 +132,11 @@ u {
 }
 .shoppingCartsubtxt {
 	width:100%;
-	height:7px;
 	text-align:right;
+	height:auto;
 }
 .smalltxt {
-	font-size:9px;
+	font-size:8px;
 	text-align:right;
 }
 
