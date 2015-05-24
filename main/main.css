@@ -52,6 +52,7 @@ u {
     width: 80%;
     text-align: center;
 	margin:0 auto;
+	padding-top:5px;
 }
 
 .voordelenlos { 
@@ -59,7 +60,7 @@ u {
     text-align: center;
     color: #fff;
 	float:left;
-	font-size: 12px;
+	font-size: 13px;
 }
 /* einde voordelen sieraden aan huis custom css */
 
@@ -75,6 +76,13 @@ u {
 	float: left;
 	width: 33%;
 	box-sizing: border-box;
+}
+.header_1 #inloggenregistreren {
+	width:100%;
+	text-align:right;
+	height:auto;
+	padding-top:5px;
+	padding-bottom:5px;
 }
 .header_1 .header_tekst {
 	float: left;
