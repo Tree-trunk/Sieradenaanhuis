@@ -154,6 +154,7 @@ u {
 .maincontent .topmenu {
 	background-color: #f6f6f6;
 	margin-bottom: 20px;
+	margin-top:4px;
 }
 .maincontent .topmenu nav {
 	font-size: 14px;
@@ -163,7 +164,7 @@ u {
 }
 .maincontent .topmenu nav ul {
 	height:auto;
-	padding:0;
+	padding:8px;
 	margin:0;
 }
 .maincontent .topmenu nav li {
@@ -346,7 +347,7 @@ u {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	border: 1px solid #000;
+	border: 1px solid #f0f0f0;
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
@@ -370,7 +371,7 @@ u {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	border: 1px solid #000;
+	border: 1px solid #f0f0f0;
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
@@ -394,7 +395,7 @@ u {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	border: 1px solid #000;
+	border: 1px solid #f0f0f0;
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
@@ -418,7 +419,7 @@ u {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	border: 1px solid #000;
+	border: 1px solid #f0f0f0;
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
