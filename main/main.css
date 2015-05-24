@@ -59,6 +59,7 @@ u {
     text-align: center;
     color: #fff;
 	float:left;
+	font-size: 12px;
 }
 /* einde voordelen sieraden aan huis custom css */
 
@@ -148,7 +149,6 @@ u {
 	margin-bottom: 20px;
 }
 .maincontent .topmenu nav {
-	font-weight: bold;
 	font-size: 14px;
 	padding-top:3px;
 	padding-bottom:3px;
@@ -159,7 +159,7 @@ u {
 }
 .maincontent .topmenu nav li a {
 	text-decoration: none;
-	padding-left: 26px;
+	padding-left: 10px;
 	padding-right: 26px;
 	padding-top: 10px;
 	padding-bottom: 10px;
