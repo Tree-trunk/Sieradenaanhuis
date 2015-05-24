@@ -114,6 +114,7 @@ u {
 	float:left;
 	text-align:right;
 	height:29px;
+	margin-right:27px;
 }
 .shoppingCarttext, #cart-count, #cart-amount {
 	width:auto;
