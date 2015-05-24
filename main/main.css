@@ -130,6 +130,15 @@ u {
 	padding-left:10px;
 	color:#662482;
 }
+.shoppingCartsubtxt {
+	width:100%;
+	height:9px;
+	text-align:right;
+}
+.smalltxt {
+	font-size:9px;
+	text-align:right;
+}
 
 /* maincontent custom css */
 /* topmenu custom css */
