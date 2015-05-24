@@ -154,7 +154,7 @@ u {
 .maincontent .topmenu {
 	background-color: #f6f6f6;
 	margin-bottom: 20px;
-	margin-top:4px;
+	margin-top:8px;
 }
 .maincontent .topmenu nav {
 	font-size: 14px;
@@ -340,7 +340,7 @@ u {
 #tweebox li {
 	margin: 0;
 	display: inline-block;
-	background: #000;
+	background: #f0f0f0;
 	width: 49%;
 	margin-right: 1%;
 	overflow: hidden;
@@ -364,7 +364,7 @@ u {
 #driebox li {
 	margin: 0;
 	display: inline-block;
-	background: #000;
+	background: #f0f0f0;
 	width: 32.3%;
 	margin-right: 1%;
 	overflow: hidden;
@@ -388,7 +388,7 @@ u {
 #vierbox li {
 	margin: 0;
 	display: inline-block;
-	background: #000;
+	background: #f0f0f0;
 	width: 24%;
 	margin-right: 1%;
 	overflow: hidden;
@@ -412,7 +412,7 @@ u {
 #vijfbox li {
 	margin: 0;
 	display: inline-block;
-	background: #000;
+	background: #f0f0f0;
 	width: 19%;
 	margin-right: 1%;
 	overflow: hidden;
