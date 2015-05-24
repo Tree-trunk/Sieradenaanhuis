@@ -52,7 +52,7 @@ u {
     width: 80%;
     text-align: center;
 	margin:0 auto;
-	padding-top:5px;
+	padding-top:3px;
 }
 
 .voordelenlos { 
@@ -82,7 +82,6 @@ u {
 	text-align:right;
 	height:auto;
 	padding-top:5px;
-	padding-bottom:5px;
 }
 .header_1 .header_tekst {
 	float: left;
@@ -95,7 +94,7 @@ u {
 	box-sizing: border-box;
 	padding: 0px;
 	text-align:right;
-	margin-top:22px;
+	margin-top:32px;
 }
 .header_2 {
 	clear: both;
@@ -177,7 +176,7 @@ u {
 	font-size: 10pt;
 	width: 80%;
 	margin: auto;
-	margin-top: 20px;
+	margin-top: 5px;
 	margin-bottom: 20px;
 	min-height: 100px;
 }
