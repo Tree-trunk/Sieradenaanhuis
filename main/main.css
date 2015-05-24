@@ -84,9 +84,9 @@ u {
 }
 .header_1 .header_cart {
 	float: left;
-	width: 33%;
+	width: auto;
 	box-sizing: border-box;
-	padding: 20px;
+	padding: 0px;
 	text-align:right;
 }
 .header_2 {
@@ -114,7 +114,7 @@ u {
 	float:left;
 	text-align:right;
 	height:29px;
-	margin-right:27px;
+	padding-right:27px;
 }
 .shoppingCarttext, #cart-count, #cart-amount {
 	width:auto;
@@ -129,7 +129,7 @@ u {
 	text-align:right;
 	height:20px;
 	font-weight:800;
-	margin-left:10px;
+	padding-left:10px;
 	color:#662482;
 }
 
