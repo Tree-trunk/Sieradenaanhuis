@@ -1,4 +1,6 @@
-﻿html {
+﻿/* custom css sieradenaanhuis */
+/* main custom css */
+html {
     margin: 0;
     padding: 0;
 }
@@ -21,6 +23,7 @@ a:hover {
 a:visited {
 	color: #3c3c3b;
 }
+
 u {
 	text-decoration: none;
 }
@@ -34,6 +37,8 @@ u {
     display: none;
 }
 
+
+/* voordelen sieraden aan  huis custom css */
 #voordelen { 
     width: 100%;
     background: #662482;
@@ -55,8 +60,79 @@ u {
     color: #fff;
 	float:left;
 }
+/* einde voordelen sieraden aan huis custom css */
 
+/* header sieraden aan huis custom css */
+#header {
+	width: 80%;
+	margin: auto;
+}
+.header_1 {
+	clear: both;
+}
+.header_1 .header_logo {
+	float: left;
+	width: 33%;
+	box-sizing: border-box;
+	padding: 20px;
+}
+.header_1 .header_tekst {
+	float: left;
+	width: 33%;
+	box-sizing: border-box;
+	padding: 20px;
+}
+.header_1 .header_cart {
+	float: left;
+	width: 33%;
+	box-sizing: border-box;
+	padding: 20px;
+	text-align:right;
+}
+.header_2 {
+	clear: both;
+}
+.header_2 #teaser_menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 20px;
+}
+.header_2 #teaser_menu li {
+	display: inline-block;
+	margin-right: 20px;
+	text-align: center;
+	border: 1px solid;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 
+/* maincontent custom css */
+/* topmenu custom css */
+.maincontent .topmenu {
+	background-color: #f6f6f6;
+	margin-bottom: 20px;
+}
+.maincontent .topmenu nav {
+	font-weight: bold;
+	font-size: 14px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+.maincontent .topmenu nav li {
+	list-style-type: none;
+	display: inline-block;
+}
+.maincontent .topmenu nav li a {
+	text-decoration: none;
+	padding-left: 26px;
+	padding-right: 26px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/* columns custom css */
 .maincontent {
 	font-size: 10pt;
 	width: 80%;
@@ -158,27 +234,6 @@ u {
 	margin-left: 30px;
 	padding-left: 0;
 }
-.maincontent .topmenu {
-	background-color: #f6f6f6;
-	margin-bottom: 20px;
-}
-.maincontent .topmenu nav {
-	font-weight: bold;
-	font-size: 14px;
-	padding-top:3px;
-	padding-bottom:3px;
-}
-.maincontent .topmenu nav li {
-	list-style-type: none;
-	display: inline-block;
-}
-.maincontent .topmenu nav li a {
-	text-decoration: none;
-	padding-left: 26px;
-	padding-right: 26px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
 .maincontent .menucontent {
 	margin-left: 10px;
 }
@@ -189,34 +244,8 @@ u {
 	vertical-align: top;
 	width: 96%;
 }
-#header {
-	width: 80%;
-	margin: auto;
-}
-#bottommenu {
-	width: 80%;
-	margin: auto;
-	background-color: #844C05;
-}
-#bottommenu nav {
-	padding-top: 8px;
-	padding-bottom: 8px;
-	font-weight: bold;
-	font-size: 15px;
-	background-color: #2804BC;
-}
-#bottommenu nav li {
-	list-style-type: none;
-	margin: 0;
-	display: inline-block;
-}
-#bottommenu nav li a {
-	text-decoration: none;
-	padding-left: 26px;
-	padding-right: 26px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
+/* einde maincontent custom css */
+/* slider custom css */
 .main-part1 {
 	height: 250px;
 	overflow: hidden;
@@ -254,147 +283,37 @@ u {
 #slider-menu ul li:first-child {
 	margin-top: 0;
 }
-#vijfbox {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+/* einde slider custom css */
+/* bottommenu custom css */
+#bottommenu {
+	width: 80%;
+	margin: auto;
+	background-color: #844C05;
 }
-#vijfbox li {
-	margin: 0;
-	display: inline-block;
-	background: #000;
-	width: 19%;
-	margin-right: 1%;
-	overflow: hidden;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	border: 1px solid #000;
-	text-transform: uppercase;
-	color: #fff;
-	text-align: center;
-}
-#vijfbox li img {
-	width: 100%;
-}
-#vierbox {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-#vierbox li {
-	margin: 0;
-	display: inline-block;
-	background: #000;
-	width: 24%;
-	margin-right: 1%;
-	overflow: hidden;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	border: 1px solid #000;
-	text-transform: uppercase;
-	color: #fff;
-	text-align: center;
-}
-#vierbox li img {
-	width: 100%;
-}
-#meestverkocht {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-#meestverkocht li {
-	margin: 0;
-	display: inline-block;
-	width: 19%;
-	margin-right: 1%;
-	border: 1px solid #ccc;
-	overflow-x: hidden;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	height: 200px;
-}
-#meestverkocht li img {
-	width: 100%;
-}
-#meestverkocht li .caption {
-	padding-right: 5%;
-	padding-left: 5%;
-}
-#meestverkocht li .caption .price {
+#bottommenu nav {
+	padding-top: 8px;
+	padding-bottom: 8px;
 	font-weight: bold;
-	font-size: 1.2em;
+	font-size: 15px;
+	background-color: #2804BC;
 }
-#vijftigprocent-1 {
-	display: inline-block;
-	width: 49%;
-	margin-right: 1%;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	border: 1px solid #ccc;
-}
-#vijftigprocent-1 img {
-	width: 100%;
-}
-#vijftigprocent-2 {
-	display: inline-block;
-	width: 49%;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	border: 1px solid #ccc;
-}
-#vijftigprocent-2 img {
-	width: 100%;
-}
-#vijftigprocent-1 .caption, #vijftigprocent-2 .caption {
-	text-align: center;
-}
-.header_1 {
-	clear: both;
-}
-.header_1 .header_logo {
-	float: left;
-	width: 33%;
-	box-sizing: border-box;
-	padding: 20px;
-}
-.header_1 .header_tekst {
-	float: left;
-	width: 33%;
-	box-sizing: border-box;
-	padding: 20px;
-}
-.header_1 .header_cart {
-	float: left;
-	width: 33%;
-	box-sizing: border-box;
-	padding: 20px;
-	border: 1px solid;
-}
-.header_2 {
-	clear: both;
-}
-.header_2 #teaser_menu {
-	list-style: none;
+#bottommenu nav li {
+	list-style-type: none;
 	margin: 0;
-	padding: 0;
-	margin-left: 20px;
-}
-.header_2 #teaser_menu li {
 	display: inline-block;
-	margin-right: 20px;
-	text-align: center;
-	border: 1px solid;
-	padding-left: 50px;
-	padding-right: 50px;
+}
+#bottommenu nav li a {
+	text-decoration: none;
+	padding-left: 26px;
+	padding-right: 26px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+/* einde bottommenu custom css */
+/* bottommenu 2 custom css */
+
+/* einde bottommenu 2 custom css */
+/* footer custom css */
 #footer {
 	padding: 0 !important;
 	width: 80% !important;
@@ -405,11 +324,6 @@ u {
 	border: 2px solid black;
 	padding: 1% 0 0 !important;
 	width: 100% !important;
-	margin: auto;
-}
-#footer2 {
-	padding: 1% 0 0 !important;
-	width: 80% !important;
 	margin: auto;
 }
 .footer_column {
@@ -440,6 +354,13 @@ u {
 .footer_seperator {
 	height: 15px;
 }
+/* einde footer custom css */
+/* footer 2 custom css */
+#footer2 {
+	padding: 1% 0 0 !important;
+	width: 80% !important;
+	margin: auto;
+}
 #footer2 ul {
 	list-style: none;
 	float: right;
@@ -448,7 +369,139 @@ u {
 	display: inline-block;
 	margin-left: 40px;
 }
+/* einde footer2 custom css */
 
+/* inhoud pagina custom css */
+/* twee coloumns */
+#tweebox {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#tweebox li {
+	margin: 0;
+	display: inline-block;
+	background: #000;
+	width: 49%;
+	margin-right: 1%;
+	overflow: hidden;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 1px solid #000;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+#tweebox li img {
+	width: 100%;
+}
+/* drie coloumns */
+#driebox {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#driebox li {
+	margin: 0;
+	display: inline-block;
+	background: #000;
+	width: 32.3%;
+	margin-right: 1%;
+	overflow: hidden;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 1px solid #000;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+#driebox li img {
+	width: 100%;
+}
+/* vier coloumns */
+#vierbox {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#vierbox li {
+	margin: 0;
+	display: inline-block;
+	background: #000;
+	width: 24%;
+	margin-right: 1%;
+	overflow: hidden;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 1px solid #000;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+#vierbox li img {
+	width: 100%;
+}
+/* vijf coloumns */
+#vijfbox {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#vijfbox li {
+	margin: 0;
+	display: inline-block;
+	background: #000;
+	width: 19%;
+	margin-right: 1%;
+	overflow: hidden;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 1px solid #000;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+#vijfbox li img {
+	width: 100%;
+}
+/* meest verkocht coloumns */
+#meestverkocht {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#meestverkocht li {
+	margin: 0;
+	display: inline-block;
+	width: 19%;
+	margin-right: 1%;
+	border: 1px solid #ccc;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height: 200px;
+}
+#meestverkocht li img {
+	width: 100%;
+}
+#meestverkocht li .caption {
+	padding-right: 5%;
+	padding-left: 5%;
+}
+#meestverkocht li .caption .price {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+/* inhoud pagina custom css */
+
+
+
+/* responsive layout */
 @media (max-width: 800px) {
 	.maincontent, #header, #bottommenu, #footer, #footer2, #footer .content #footer {
 		width:95% !important;
@@ -529,3 +582,4 @@ u {
         margin-left: 0px !important;
     }
 }
+/* einde responsive layout */
