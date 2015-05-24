@@ -159,6 +159,12 @@ u {
 	font-size: 14px;
 	padding-top:3px;
 	padding-bottom:3px;
+	border-bottom:2px solid #662482;
+}
+.maincontent .topmenu nav ul {
+	height:auto;
+	padding:0;
+	margin:0;
 }
 .maincontent .topmenu nav li {
 	list-style-type: none;
