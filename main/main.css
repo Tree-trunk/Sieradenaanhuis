@@ -108,6 +108,20 @@ u {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+/*shopping cart custom css */
+.shoppingCartimage {
+	width:auto;
+	float:left;
+	text-align:right;
+	height:29px;
+}
+.shoppingCarttext {
+	width:auto;
+	float:right;
+	text-align:right;
+	height:20px;
+	font-weight:bold;
+}
 
 /* maincontent custom css */
 /* topmenu custom css */
