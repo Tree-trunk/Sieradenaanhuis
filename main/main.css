@@ -84,6 +84,7 @@ u {
 #header {
 	width:  75%;
 	margin: auto;
+	background-color:#fff;
 }
 .header_1 {
 	clear: both;
@@ -208,6 +209,7 @@ u {
 	margin-top: 5px;
 	margin-bottom: 20px;
 	min-height: 100px;
+	background-color:#fff;
 }
 .maincontent #columns {
 	display: table;
@@ -588,8 +590,12 @@ u {
 /* footer 2 custom css */
 #footer2 {
 	padding: 1% 0 0 !important;
-	width:  75% !important;
+	width:  100% !important;
 	margin: auto;
+	background-color:#FFFFFF;
+}
+.footer2_column {
+	width:75%;
 }
 #footer2 ul {
 	list-style: none;
