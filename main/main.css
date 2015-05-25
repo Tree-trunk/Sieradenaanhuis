@@ -311,7 +311,7 @@ u {
 	font-weight:bold;
 	margin-top:20px;
 }
-.maincontent .menucontent nav ul li {
+.maincontent .menucontent nav li ul {
 	background-color: #fff;
 	display: inline-block;
 	margin-right: 10px;
