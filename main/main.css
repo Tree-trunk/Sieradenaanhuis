@@ -312,21 +312,13 @@ u {
 	width: 39%;
 	height: 100%;
 }
-#slider-menu ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	height: 250px;
-}
-#slider-menu ul li {
+#slider-menu img {
 	margin-top: 3%;
 	background: #ff0000;
 	text-align: center;
 	color: #fff;
-	height: 31%;
-}
-#slider-menu ul li:first-child {
-	margin-top: 0;
+	max-height: 31%;
+	width:100%:
 }
 /* einde slider custom css */
 /* inhoud pagina custom css */
