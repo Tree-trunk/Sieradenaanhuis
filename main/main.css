@@ -312,7 +312,7 @@ u {
 	list-style:none;
 	margin-top:20px;
 }
-.maincontent .menucontent nav li {
+.maincontent .menucontent nav li a{
 	color:#662482;
 }
 .maincontent .menucontent nav li ul {
