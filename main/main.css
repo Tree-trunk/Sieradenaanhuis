@@ -120,7 +120,7 @@ u {
 	width:auto;
 	float:left;
 	text-align:right;
-	height:29px;
+	height:20px;
 	padding-right:27px;
 }
 .shoppingCarttext, #cart-count, #cart-amount {
@@ -309,7 +309,6 @@ u {
 }
 #slider-menu {
 	display: inline-block;
-	background: #ccc;
 	width: 39%;
 	height: 100%;
 }
