@@ -293,7 +293,7 @@ u {
 /* einde maincontent custom css */
 /* slider custom css */
 .main-part1 {
-	height: 250px;
+	height: auto;
 	overflow: hidden;
 }
 #slider {
@@ -302,6 +302,7 @@ u {
 	width: 60%;
 	margin-right: 1%;
 	vertical-align: top;
+	height:375px;
 }
 #slider img {
 	width: 100%;
