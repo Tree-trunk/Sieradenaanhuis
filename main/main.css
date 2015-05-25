@@ -314,6 +314,7 @@ u {
 }
 .maincontent .menucontent nav li a{
 	color:#662482;
+	font-weight:400;
 }
 .maincontent .menucontent nav li ul {
 	background-color: #fff;
