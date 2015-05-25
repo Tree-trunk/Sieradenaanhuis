@@ -399,7 +399,7 @@ u {
 	text-align: center;
 }
 .lilast-child {
-	margin-right: 0%;
+	margin-right: 0% !important;
 }
 #vierbox li img {
 	width: 100%;
