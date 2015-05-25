@@ -9,11 +9,11 @@ body {
 	width:100%;
 	margin:0 auto;
 	padding:0;
-	
-    border-left: 100px solid #000;
-    -webkit-border-image: url(http://sieradenaanhuis.azurewebsites.net/main/images/sieraden-webshop-footer-top.png) 30 round; /* Safari 3.1-5 */
-    -o-border-image: url(http://sieradenaanhuis.azurewebsites.net/main/images/sieraden-webshop-footer-top.png) 30 round; /* Opera 11-12.1 */
-    border-image: url(http://sieradenaanhuis.azurewebsites.net/main/images/sieraden-webshop-footer-top.png) 30 round;
+	background: linear-gradient(to right, #ff7900 0%, #ff7900 20%, #fff 20%, #fff 100%) repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+	background: -webkit-linear-gradient(to right, #ff7900 0%, #ff7900 20%, #fff 20%, #fff 100%) repeat scroll 0 0 rgba(0, 0, 0, 0) !important; /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(to right, #ff7900 0%, #ff7900 20%, #fff 20%, #fff 100%) repeat scroll 0 0 rgba(0, 0, 0, 0) !important; /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(to right, #ff7900 0%, #ff7900 20%, #e3e3e3 20%, #fff 100%) repeat scroll 0 0 rgba(0, 0, 0, 0); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #ff7900 0%, #ff7900 20%, #fff 20%, #fff 100%) repeat scroll 0 0 rgba(0, 0, 0, 0) !important; /* Standard syntax */
 }
 
 a {
