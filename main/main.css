@@ -307,6 +307,7 @@ u {
 	margin-right: 10px;
 	vertical-align: top;
 	width: 96%;
+	padding:0;
 }
 .maincontent .menucontent nav li {
 	list-style:none;
