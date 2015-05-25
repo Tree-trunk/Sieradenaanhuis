@@ -150,6 +150,11 @@ u {
 }
 
 /* maincontent custom css */
+.paarselijn {
+	border-bottom:4px solid #662482;
+	width:100%;
+	height:1px;
+}
 /* topmenu custom css */
 .maincontent .topmenu {
 	background-color: #f6f6f6;
