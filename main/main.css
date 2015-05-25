@@ -313,12 +313,12 @@ u {
 	height: 100%;
 }
 .slidermenuimg img {
-	margin-top: 3%;
 	background: #ff0000;
 	text-align: center;
 	color: #fff;
 	max-height: 31%;
-	width:100%:
+	width:100%;
+	margin-bottom:5px;
 }
 /* einde slider custom css */
 /* inhoud pagina custom css */
