@@ -329,6 +329,10 @@ u {
 }
 /* einde slider custom css */
 /* inhoud pagina custom css */
+
+.lilast-child {
+	margin-right: 0% !important;
+}
 /* twee coloumns */
 #tweebox {
 	list-style: none;
@@ -339,7 +343,7 @@ u {
 	margin: 0;
 	display: inline-block;
 	background: #662482;
-	width: 49%;
+	width: 49.5%;
 	margin-right: 1%;
 	overflow: hidden;
 	box-sizing: border-box;
@@ -363,7 +367,7 @@ u {
 	margin: 0;
 	display: inline-block;
 	background: #662482;
-	width: 32.3%;
+	width: 32.66%;
 	margin-right: 1%;
 	overflow: hidden;
 	box-sizing: border-box;
@@ -387,7 +391,7 @@ u {
 	margin: 0;
 	display: inline-block;
 	background: #662482;
-	width: 24%;
+	width: 24.25%;
 	margin-right: 1%;
 	overflow: hidden;
 	box-sizing: border-box;
@@ -397,9 +401,6 @@ u {
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
-}
-.lilast-child {
-	margin-right: 0% !important;
 }
 #vierbox li img {
 	width: 100%;
@@ -414,7 +415,7 @@ u {
 	margin: 0;
 	display: inline-block;
 	background: #662482;
-	width: 19%;
+	width: 19,2%;
 	margin-right: 1%;
 	overflow: hidden;
 	box-sizing: border-box;
@@ -437,7 +438,7 @@ u {
 #meestverkocht li {
 	margin: 0;
 	display: inline-block;
-	width: 19%;
+	width: 19.2%;
 	margin-right: 1%;
 	border: 1px solid #f0f0f0;
 	overflow-x: hidden;
