@@ -308,7 +308,7 @@ u {
 	vertical-align: top;
 	width: 96%;
 }
-.maincontent .menucontent nav ul {
+.maincontent .menucontent nav li {
 	color:#662482;
 	font-weight:bold;
 	list-style:none;
@@ -323,6 +323,12 @@ u {
 	color:#000;
 	font-weight:regular;
 	list-style-image: url('http://sieradenaanhuis.azurewebsites.net/main/images/sieraden-opsommings-teken-sieraden-aan-huis-webshop.png');
+}
+.maincontent .menucontent nav li ul li {
+	color:#000;
+	font-weight:regular;
+	list-style:none;
+	margin-top:0px;
 }
 /* einde maincontent custom css */
 /* slider custom css */
