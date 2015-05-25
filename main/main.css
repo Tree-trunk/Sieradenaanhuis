@@ -33,6 +33,7 @@ h2 {
 	margin: 0;
 	padding:0;
 	font-size:14px;
+	padding-bottom:4px;
 }
 
 u {
@@ -364,9 +365,6 @@ u {
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
-	padding-bottom:6px;
-	font-size:14px;
-	font-weight:bold;
 }
 #tweebox li img {
 	width: 100%;
@@ -392,9 +390,6 @@ u {
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
-	padding-bottom:6px;
-	font-size:14px;
-	font-weight:bold;
 }
 #driebox li img {
 	width: 100%;
@@ -420,9 +415,6 @@ u {
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
-	padding-bottom:6px;
-	font-size:14px;
-	font-weight:bold;
 }
 #vierbox li img {
 	width: 100%;
@@ -448,9 +440,6 @@ u {
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
-	padding-bottom:6px;
-	font-size:14px;
-	font-weight:bold;
 }
 #vijfbox li img {
 	width: 100%;
