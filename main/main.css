@@ -24,6 +24,12 @@ a:visited {
 	color: #3c3c3b;
 }
 
+h2 {
+	font-family: "trajan-sans-pro",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
 u {
 	text-decoration: none;
 }
@@ -353,9 +359,13 @@ u {
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
+	padding-bottom:6px;
+	font-size:14px;
+	font-weight:bold;
 }
 #tweebox li img {
 	width: 100%;
+	padding-bottom:6px;
 }
 /* drie coloumns */
 #driebox {
@@ -377,9 +387,13 @@ u {
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
+	padding-bottom:6px;
+	font-size:14px;
+	font-weight:bold;
 }
 #driebox li img {
 	width: 100%;
+	padding-bottom:6px;
 }
 /* vier coloumns */
 #vierbox {
@@ -401,9 +415,13 @@ u {
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
+	padding-bottom:6px;
+	font-size:14px;
+	font-weight:bold;
 }
 #vierbox li img {
 	width: 100%;
+	padding-bottom:6px;
 }
 /* vijf coloumns */
 #vijfbox {
@@ -425,9 +443,13 @@ u {
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
+	padding-bottom:6px;
+	font-size:14px;
+	font-weight:bold;
 }
 #vijfbox li img {
 	width: 100%;
+	padding-bottom:6px;
 }
 /* meest verkocht coloumns */
 #meestverkocht {
