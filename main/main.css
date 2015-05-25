@@ -320,15 +320,13 @@ u {
 	margin-right: 10px;
 	vertical-align: top;
 	width: 96%;
-	color:#000;
-	font-weight:regular;
-	list-style-image: url('http://sieradenaanhuis.azurewebsites.net/main/images/sieraden-opsommings-teken-sieraden-aan-huis-webshop.png');
 }
 .maincontent .menucontent nav li ul li {
 	color:#000;
-	font-weight:regular;
+	font-weight:normal;
 	list-style:none;
 	margin-top:0px;
+	list-style-image: url('http://sieradenaanhuis.azurewebsites.net/main/images/sieraden-opsommings-teken-sieraden-aan-huis-webshop.png');
 }
 /* einde maincontent custom css */
 /* slider custom css */
