@@ -12,7 +12,7 @@ body {
     background-image: url('http://sieradenaanhuis.azurewebsites.net/main/images/sieraden-webshop-BG-left.png'), url('http://sieradenaanhuis.azurewebsites.net/main/images/sieraden-webshop-BG-left.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: left right; 
+    background-position: left, right; 
 }
 
 a {
