@@ -61,7 +61,7 @@ u {
 }
 
 #voordelencontainer { 
-    width: 80%;
+    width:  75%;
     text-align: center;
 	margin:0 auto;
 	padding-top:3px;
@@ -78,7 +78,7 @@ u {
 
 /* header sieraden aan huis custom css */
 #header {
-	width: 80%;
+	width:  75%;
 	margin: auto;
 }
 .header_1 {
@@ -199,7 +199,7 @@ u {
 /* columns custom css */
 .maincontent {
 	font-size: 10pt;
-	width: 80%;
+	width:  75%;
 	margin: auto;
 	margin-top: 5px;
 	margin-bottom: 20px;
@@ -212,7 +212,7 @@ u {
 .maincontent #columns .main-column-left {
 	display: table-cell;
 	vertical-align: top;
-	width: 20%;
+	width: 14%;
 	min-height: 100px;
 	background-color: #fff;
 }
@@ -220,7 +220,7 @@ u {
 	display: table-cell;
 	vertical-align: top;
 	min-height: 100px;
-	width: 80%;
+	width:  75%;
 	background-color: #fff;
 }
 .maincontent #columns .main-column-right .usercontent {
@@ -506,7 +506,7 @@ u {
 /* inhoud pagina custom css */
 /* bottommenu custom css */
 #bottommenu {
-	width: 80%;
+	width:  75%;
 	margin: auto;
 	background-color: #844C05;
 }
@@ -536,7 +536,7 @@ u {
 /* footer custom css */
 #footer {
 	padding: 0 !important;
-	width: 80% !important;
+	width:  75% !important;
 	margin: auto;
 	background-color: #26C70C;
 }
@@ -578,7 +578,7 @@ u {
 /* footer 2 custom css */
 #footer2 {
 	padding: 1% 0 0 !important;
-	width: 80% !important;
+	width:  75% !important;
 	margin: auto;
 }
 #footer2 ul {
