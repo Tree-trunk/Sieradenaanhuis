@@ -28,6 +28,9 @@ h2 {
 	font-family: "trajan-sans-pro",sans-serif;
 	font-style: normal;
 	font-weight: 700;
+	margin: 0;
+	padding:0;
+	font-size:12px;
 }
 
 u {
