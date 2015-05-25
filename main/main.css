@@ -24,7 +24,10 @@ a:visited {
 }
 
 h2 {
-	font-family: "trajan-sans-pro",sans-serif;
+  font-family: "trajan-sans-pro";
+  }
+  
+h2 {
 	font-style: normal;
 	font-weight: 700;
 	margin: 0;
