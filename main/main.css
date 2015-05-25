@@ -326,10 +326,12 @@ u {
 	padding:0;
 }
 .maincontent .menucontent nav li ul li {
-	color:#000;
 	list-style:none;
 	margin-top:0px;
 	list-style-image: url('http://sieradenaanhuis.azurewebsites.net/main/images/sieraden-opsommings-teken-sieraden-aan-huis-webshop.png');
+}
+.maincontent .menucontent nav li ul li a{
+	color:#000;
 }
 /* einde maincontent custom css */
 /* slider custom css */
