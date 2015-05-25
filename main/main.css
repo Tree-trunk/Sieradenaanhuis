@@ -214,7 +214,7 @@ u {
 	vertical-align: top;
 	width: 20%;
 	min-height: 100px;
-	background-color: #094CA6;
+	background-color: #fff;
 }
 .maincontent #columns .main-column-right {
 	display: table-cell;
@@ -307,6 +307,7 @@ u {
 	margin-right: 10px;
 	vertical-align: top;
 	width: 96%;
+	list-style-image: url('http://sieradenaanhuis.azurewebsites.net/main/images/sieraden-opsommings-teken-sieraden-aan-huis-webshop.png');
 }
 /* einde maincontent custom css */
 /* slider custom css */
