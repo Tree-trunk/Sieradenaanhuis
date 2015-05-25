@@ -539,8 +539,6 @@ u {
 	width:  100% !important;
 	margin: auto;
 	background-color: #fff;
-}
-#footer .content {
     border-top: 20px solid #000;
     -webkit-border-image: url(http://sieradenaanhuis.azurewebsites.net/main/images/sieraden-webshop-footer-top.png); /* Safari 3.1-5 */
     -o-border-image: url(http://sieradenaanhuis.azurewebsites.net/main/images/sieraden-webshop-footer-top.png); /* Opera 11-12.1 */
