@@ -508,7 +508,6 @@ u {
 #bottommenu {
 	width:  75%;
 	margin: auto;
-	background-color: #844C05;
 }
 #bottommenu nav {
 	padding-top: 8px;
@@ -545,7 +544,6 @@ u {
     border-image: url(http://sieradenaanhuis.azurewebsites.net/main/images/sieraden-webshop-footer-top.png) 30 round;
 }
 #footer .content #footer {
-	border: 2px solid black;
 	padding: 1% 0 0 !important;
 	width: 75% !important;
 	margin: auto;
