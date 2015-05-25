@@ -550,6 +550,9 @@ u {
 	width: 75% !important;
 	margin: auto;
 }
+#footer .content #footer .content {
+	border:none !important;
+}
 .footer_column {
 	float: left;
 	width: 20%;
