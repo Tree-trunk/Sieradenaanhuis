@@ -9,6 +9,11 @@ body {
 	width:100%;
 	margin:0 auto;
 	padding:0;
+	
+    border-left: 100px solid #000;
+    -webkit-border-image: url(http://sieradenaanhuis.azurewebsites.net/main/images/sieraden-webshop-footer-top.png) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(http://sieradenaanhuis.azurewebsites.net/main/images/sieraden-webshop-footer-top.png) 30 round; /* Opera 11-12.1 */
+    border-image: url(http://sieradenaanhuis.azurewebsites.net/main/images/sieraden-webshop-footer-top.png) 30 round;
 }
 
 a {
