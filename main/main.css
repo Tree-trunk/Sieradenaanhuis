@@ -9,6 +9,10 @@ body {
 	width:100%;
 	margin:0 auto;
 	padding:0;
+    background-image: url('http://sieradenaanhuis.azurewebsites.net/main/images/sieraden-webshop-BG-left.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left; 
 }
 
 a {
