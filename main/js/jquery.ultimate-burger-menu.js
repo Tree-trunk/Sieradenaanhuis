@@ -95,6 +95,7 @@ these comments) is used without any alteration
 
         // function to add links into the burger menu
         function createMenuLink($a, eq, len){
+            alert($a.parent.attr('class'));
             // create the link and define its CSS
             // the text of the link can be overloaded by the linkText setting (a function has to be provided)
             var $link = $('<a>').attr('href', $a.attr('href')).text(settings.linkText($a)),
@@ -108,6 +109,7 @@ these comments) is used without any alteration
             };
             
             $link.css(linkCss);
+            
             
             // display (or not) a border on the last burger menu item
             if(settings.borderBottom != 'none' && settings.linkNoBorderOnLast && eq == len - 1){
