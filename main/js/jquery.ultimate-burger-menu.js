@@ -96,12 +96,13 @@ these comments) is used without any alteration
         // function to add links into the burger menu
         function createMenuLink($a, eq, len){
             //alert($a.parent().html());
+            var submenu = '';
             if($a.parent().hasClass('sub')) {
-                alert(true);
+                submenu = ' - ';
             }
             // create the link and define its CSS
             // the text of the link can be overloaded by the linkText setting (a function has to be provided)
-            var $link = $('<a>').attr('href', $a.attr('href')).text(settings.linkText($a)),
+            var $link = $('<a>').attr('href', $a.attr('href')).text(submenu + ' ' + settings.linkText($a)),
             linkCss = {
                 color: settings.linkColor,
                 padding: settings.linkPadding,
