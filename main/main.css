@@ -241,8 +241,6 @@ u {
 }
 .maincontent #columns .main-column-right .container .product {
 	background: none !important;
-	min-height: 400px;
-	max-height: 275px;
 	height:auto;
 	margin-right: 10px !important;
 	float: left;
@@ -509,6 +507,22 @@ u {
 	font-size: 1.2em;
 }
 /* inhoud pagina custom css */
+.maincontent #columns .main-column-right .container .product {
+    border: 1px solid #d8dadc;
+    float: left;
+    margin-right: 2% !important;
+}
+.product {
+    border-radius: 0;
+    color: #3c3c3b;
+    margin-bottom: 5px;
+    margin-right: 2%;
+    margin-top: 5px;
+    padding: 10px 15px;
+    vertical-align: top;
+	text-align:center;
+    width: 18%;
+}
 /* bottommenu custom css */
 #bottommenu {
 	width:  75%;
