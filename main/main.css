@@ -238,11 +238,10 @@ u {
 	width: 100%;
 	margin: 0;
 	float: left;
-	background-color: #B3DC19;
 }
 .maincontent #columns .main-column-right .container .product {
 	background: none !important;
-	min-height: 255px;
+	min-height: 400px;
 	max-height: 275px;
 	margin-right: 10px !important;
 	float: left;
