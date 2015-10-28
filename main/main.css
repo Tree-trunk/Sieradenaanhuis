@@ -243,6 +243,7 @@ u {
 	background: none !important;
 	min-height: 400px;
 	max-height: 275px;
+	height:auto;
 	margin-right: 10px !important;
 	float: left;
 	border: 1px solid black;
