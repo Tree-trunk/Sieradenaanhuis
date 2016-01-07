@@ -526,6 +526,7 @@ u {
 	text-align:center;
     width: 18%;
 	box-shadow: none !important;
+	min-height:300px;
 }
 .product hover{
 	border:1px dotted #3c3c3b;
