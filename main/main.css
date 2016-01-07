@@ -549,9 +549,6 @@ u {
 	font-weight:bold;
 	margin:10px auto;
 }
-.paars {
-	color:#662482;
-}
 
 /* product detal pagina custom css */
 .detail {
@@ -652,10 +649,13 @@ u {
 }
 
 .type-text{
-	width:100%;
+	width:99%;
 }
 	
 
+.paars {
+	color:#662482;
+}
 
 /* bottommenu custom css */
 #bottommenu {
