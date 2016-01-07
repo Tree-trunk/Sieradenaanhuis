@@ -576,9 +576,21 @@ u {
 	text-align:left;
 }
 
+.product-detail .header {
+	border-bottom: 1px solid #662482;
+	width: 100%;
+	padding: 10px 0;
+	margin-bottom: 10px;
+}
+
+.label {
+	margin-top:20px;
+}
+
 .label {
 	position:relative;
 	float:left;
+	padding-right:5px;
 }
 
 .value {
@@ -586,10 +598,8 @@ u {
 	float:left;
 }
 
-.product-detail .header {
-	border-bottom:1px solid	#662482;
-	width:100%;
-	margin-bottom:10px;
+.details {
+	margin-top:20px;
 }
 
 /* bottommenu custom css */
