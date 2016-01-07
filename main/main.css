@@ -558,6 +558,7 @@ u {
 	text-align:left;
 	border-radius: 0;
     color: #3c3c3b;
+	border: 1px solid #D8DADC;
 }
 
 .top-description description {
