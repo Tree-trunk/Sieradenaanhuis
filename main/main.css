@@ -550,6 +550,13 @@ u {
 }
 
 /* product detal pagina custom css */
+.product .detail {
+	width: 96%;
+    background-color: rgb(204, 204, 204);
+    margin: 0px;
+    padding: 2%;
+}
+
 .product-left {
 	float:left;
 }
