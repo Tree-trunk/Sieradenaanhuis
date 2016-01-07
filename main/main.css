@@ -556,6 +556,7 @@ u {
     background-color: rgb(204, 204, 204);
     margin: 0px;
     padding: 2%;
+	text-align:left;
 }
 
 .top-description description {
