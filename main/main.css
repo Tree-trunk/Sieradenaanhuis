@@ -376,6 +376,9 @@ u {
 .lilast-child {
 	margin-right: 0% !important;
 }
+.main-part3, .main-part2 {
+	margin-top:40px;
+}
 /* twee coloumns */
 #tweebox {
 	list-style: none;
@@ -521,7 +524,12 @@ u {
     vertical-align: top;
 	text-align:center;
     width: 18%;
+	box-shadow:none !important;
 }
+.product .price {
+    color: #662482;
+}
+	
 /* bottommenu custom css */
 #bottommenu {
 	width:  75%;
@@ -573,11 +581,11 @@ u {
 .footer_column {
 	float: left;
 	width: 20%;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 .footer_column h4 {
 	margin: 0;
-	font-size: 1.1em;
+	font-size: 1em;
 	margin-bottom: 10px;
 }
 .footer_column ul {
@@ -593,7 +601,7 @@ u {
 	text-align: center;
 }
 .footer_column.logo .company {
-	font-size: 1.2em;
+	font-size: 1em;
 }
 .footer_seperator {
 	height: 15px;
@@ -601,7 +609,7 @@ u {
 /* einde footer custom css */
 /* footer 2 custom css */
 #footer2 {
-	padding: 1% 0 0 !important;
+	padding: 1% 0 15px !important;
 	width:  100% !important;
 	margin: auto;
 	background-color:#FFFFFF;
