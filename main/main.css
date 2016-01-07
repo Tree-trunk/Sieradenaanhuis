@@ -625,7 +625,7 @@ u {
 	font-weight:bold;
 	margin:10px auto;
 	border:0px;
-	font-size:18px;
+	font-size:18px !important;
 }
 .mailpagina-button {
 	width:100%;height:auto;
@@ -637,7 +637,7 @@ u {
 	font-weight:bold;
 	margin:10px auto;
 	border:0px;
-	font-size:12px;
+	font-size:12px !important;
 }
 	
 
