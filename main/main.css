@@ -567,14 +567,14 @@ u {
 
 .product-left {
 	float:left;
-	width:45%;
+	width:60%;
 	margin-right:5%;
 	text-align:left;
 }
 
 .product-right {
 	float:right;
-	width:50%;
+	width:35%;
 	text-align:left;
 }
 
@@ -625,7 +625,7 @@ u {
 	font-weight:bold;
 	margin:10px auto;
 	border:0px;
-	font-size:14px;
+	font-size:18px;
 }
 .mailpagina-button {
 	width:100%;height:auto;
@@ -637,7 +637,7 @@ u {
 	font-weight:bold;
 	margin:10px auto;
 	border:0px;
-	font-size:14px;
+	font-size:12px;
 }
 	
 
