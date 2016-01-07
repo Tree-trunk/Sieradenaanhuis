@@ -639,6 +639,10 @@ u {
 	border:0px;
 	font-size:12px !important;
 }
+
+.number {
+	display:none;
+}
 	
 
 
