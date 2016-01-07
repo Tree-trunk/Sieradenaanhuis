@@ -526,8 +526,12 @@ u {
     width: 18%;
 	box-shadow: none !important;
 }
+.product hover{
+	border:1px dotted #3c3c3b;
+}
 .product .price {
     color: #662482 !important;
+	font-size:14px;
 }
 	
 /* bottommenu custom css */
