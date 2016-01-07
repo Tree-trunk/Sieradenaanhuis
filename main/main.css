@@ -536,6 +536,7 @@ u {
 .product .price {
     color: #662482 !important;
 	font-size:14px;
+	font-weight:bold;
 }
 .bekijkproduct {
 	width:80%;
@@ -557,16 +558,27 @@ u {
     padding: 2%;
 }
 
-.top-description description{
+.top-description description {
+	text-align:left;
 }
 
 .product-left {
 	float:left;
+	width:45%;
+	margin-right:5%
+	text-align:left;
 }
 .product-right {
 	float:right;
+	width:50%;
+	text-align:left;
 }
-	
+
+.product-detail .header {
+	border-bottom:1px solid	#662482;
+	width:100%;
+}
+
 /* bottommenu custom css */
 #bottommenu {
 	width:  75%;
