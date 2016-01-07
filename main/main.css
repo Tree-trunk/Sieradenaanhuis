@@ -643,6 +643,14 @@ u {
 .number {
 	display:none;
 }
+
+.input-item {
+	margin-top:20px;
+}
+
+.type-text{
+	width:100%;
+}
 	
 
 
