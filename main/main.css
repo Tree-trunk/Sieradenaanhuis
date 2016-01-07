@@ -524,10 +524,10 @@ u {
     vertical-align: top;
 	text-align:center;
     width: 18%;
-	box-shadow:none !important;
+	box-shadow: none !important;
 }
 .product .price {
-    color: #662482;
+    color: #662482 !important;
 }
 	
 /* bottommenu custom css */
