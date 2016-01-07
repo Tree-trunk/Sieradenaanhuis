@@ -566,18 +566,30 @@ u {
 .product-left {
 	float:left;
 	width:45%;
-	margin-right:5%
+	margin-right:5%;
 	text-align:left;
 }
+
 .product-right {
 	float:right;
 	width:50%;
 	text-align:left;
 }
 
+.label {
+	position:relative;
+	float:left;
+}
+
+.value {
+	position:relative;
+	float:left;
+}
+
 .product-detail .header {
 	border-bottom:1px solid	#662482;
 	width:100%;
+	margin-bottom:10px;
 }
 
 /* bottommenu custom css */
