@@ -553,10 +553,11 @@ u {
 /* product detal pagina custom css */
 .detail {
 	width: 96%;
-    background-color: rgb(204, 204, 204);
     margin: 0px;
     padding: 2%;
 	text-align:left;
+	border-radius: 0;
+    color: #3c3c3b;
 }
 
 .top-description description {
@@ -583,7 +584,7 @@ u {
 	margin-bottom: 10px;
 }
 
-.label {
+.info {
 	margin-top:20px;
 }
 
