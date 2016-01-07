@@ -529,6 +529,9 @@ u {
 .product hover{
 	border:1px dotted #3c3c3b;
 }
+.number {
+	font-size:8px !important;
+}
 .product .price {
     color: #662482 !important;
 	font-size:14px;
