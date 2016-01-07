@@ -556,7 +556,7 @@ u {
     margin: 0px;
     padding: 2%;
 	text-align:left;
-	border-radius: 0;
+	border-radius: 4px;
     color: #3c3c3b;
 	border: 1px solid #D8DADC;
 }
@@ -583,6 +583,10 @@ u {
 	width: 100%;
 	padding: 10px 0;
 	margin-bottom: 10px;
+}
+
+.description {
+	font-weight:bold;
 }
 
 .info {
