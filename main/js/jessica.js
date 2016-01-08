@@ -29,7 +29,7 @@ $(document).ready(function(){
             }
             
             if($('.price[itemprop="offers"]')[0]) { 
-                $('.price').append('<div class="bekijkproduct">Bekijk & bestel</div>');
+                $('.price[itemprop="offers"]').append('<div class="bekijkproduct">Bekijk & bestel</div>');
             }
             
             if($('.product-options')[0]) { 
