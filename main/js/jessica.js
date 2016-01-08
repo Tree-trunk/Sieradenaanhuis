@@ -5,7 +5,7 @@ $(document).ready(function(){
                     '<div class="product-detail">' + 
                     '  <div class="description">Bezorging: Thuisbezorgd</div>' + 
                     '  <div class="info">' + 
-                    '    <div class="details"> Bestel op werkdagen voor 15.00uur en ontvang je sieraden morgen al thuis! Als jouw pakketje is ingepakt en klaar staat voor verzending ontvang je van ons een email met het track & trace nummer van DHL Parcel. Op deze manier kan je de bestelling zelf volgen. Vanaf €19,98 verzenden wij je bestelling gratis, onder dit bedrag berekenen wij €2,99 verzendkosten. </div>' + 
+                    '    <div class="details"> Bestel op werkdagen voor 15.00uur en ontvang je sieraden morgen al thuis! Als jouw pakketje is ingepakt en klaar staat voor verzending ontvang je van ons een email met het track & trace nummer van DHL Parcel. Op deze manier kan je de bestelling zelf volgen. Vanaf &euro;19,98 verzenden wij je bestelling gratis, onder dit bedrag berekenen wij &euro;2,99 verzendkosten. </div>' + 
                     '  </div>' + 
                     '</div>' + 
                     '<div class="product-detail">' + 
@@ -26,5 +26,18 @@ $(document).ready(function(){
                     '</div>' + 
                     '</div>');
                 
+            }
+            
+            if($('.price')[0]) { 
+                $('.price').after('<div class="bekijkproduct">Bekijk & bestel</div>');
+            }
+            
+            if($('.product-options')[0]) { 
+                $('.product-options .intro.item').after('<div class="input-item paars">' +
+                    '<p>' + 
+                    'Op voorraad, direct leverbaar <br /><br />' + 
+                    'Voor 15:00 besteld, morgen in huis' + 
+                    '</p>' + 
+                    '</div>');
             }
         });
