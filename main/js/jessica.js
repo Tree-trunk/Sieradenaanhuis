@@ -28,8 +28,8 @@ $(document).ready(function(){
                 
             }
             
-            if($('.price')[0]) { 
-                $('.price').after('<div class="bekijkproduct">Bekijk & bestel</div>');
+            if($('.price[itemprop="offers"]')[0]) { 
+                $('.price').append('<div class="bekijkproduct">Bekijk & bestel</div>');
             }
             
             if($('.product-options')[0]) { 
