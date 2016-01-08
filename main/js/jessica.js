@@ -37,7 +37,7 @@ $(document).ready(function(){
             if($('.product-options')[0]) { 
                 $('.product-options .intro.item').after('<div class="input-item paars">' +
                     '<p>' + 
-                    'Op voorraad, direct leverbaar <br />' + 
+                    '&#10003; Op voorraad, direct leverbaar <br />' + 
                     'Voor 15:00 besteld, morgen in huis' + 
                     '</p>' + 
                     '</div>');
