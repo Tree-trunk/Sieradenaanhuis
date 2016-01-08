@@ -28,14 +28,16 @@ $(document).ready(function(){
                 
             }
             
-            if($('.price[itemprop="offers"]')[0]) { 
-                $('.price[itemprop="offers"]').append('<div class="bekijkproduct">Bekijk & bestel</div>');
+            if($('.price[itemprop="offers"]')[0]) {
+                if(!$('.price').find('.price-value')) { 
+                    $('.price[itemprop="offers"]').append('<div class="bekijkproduct">Bekijk & bestel</div>');
+                }
             }
             
             if($('.product-options')[0]) { 
                 $('.product-options .intro.item').after('<div class="input-item paars">' +
                     '<p>' + 
-                    'Op voorraad, direct leverbaar <br /><br />' + 
+                    'Op voorraad, direct leverbaar <br />' + 
                     'Voor 15:00 besteld, morgen in huis' + 
                     '</p>' + 
                     '</div>');
